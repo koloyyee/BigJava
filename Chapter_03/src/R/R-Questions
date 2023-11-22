@@ -1,0 +1,18 @@
+R3.1: In Java interface will have the methods without the actual function, whichever class implements an interface,
+it need to have those methods in their class. Interface is composition NOT inheritance. Encapsulation is the hide some
+properties away from other classes, private, public, protected are being used.
+R3.2: public interface can be used by any class
+R3.3: Encapsulation is one of the 4 pillars of OOP, it introduce abstractions hide and expose what necessary.
+R3.4: Even object has been instantiated, private instance variable cannot be accessed unless a public accessor method is used,
+private means it can only be used within the class, not including subclass.
+R3.5: private String gradeLetter;
+R3.6: the instance variables are `private int hour`, and `private int minutes`.
+R3.7: create different methods such as assessors or modifiers
+R3.8: yes, because if we need update a value we need to have modifier to do so.
+R3.9: we can use a getBalance() to get the current bank account balance.
+R3.10: If it is a public method it might be misused, and we also able to setAmount to achieve that.
+R3.11: it will be negative
+R3.12: current class
+R3.13: get
+R3.14: it does nothing
+R3.15:

@@ -1,8 +1,8 @@
-package R;
+package E;
 
 import java.awt.Rectangle;
 
-public class R06 {
+public class E06 {
 
     public static void main(String[] args) {
         Rectangle rect = new Rectangle(5, 10, 20, 30);
@@ -21,9 +21,9 @@ public class R06 {
         rect.add(addX, addY);
 
         if (expectedX == rect.getX()) {
-            System.out.printf("Expected X: %f is the same as Current X: %f%n", expectedX, rect.getX());
+            System.out.printf("Expected X: %d is the same as Current X: %d%n", expectedX, rect.getX());
         } else if (expectedY == rect.getY()) {
-            System.out.printf("Expected X: %f is the same as Current X: %f%n", expectedY, rect.getY());
+            System.out.printf("Expected X: %d is the same as Current X: %d%n", expectedY, rect.getY());
         } else {
             System.out.printf("New x: %.2f and new y: %.2f%n", rect.getX(), rect.getY());
         }

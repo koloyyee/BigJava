@@ -1,8 +1,8 @@
-package R;
+package E;
 
 import java.util.Scanner;
 
-public class R04 {
+public class E04 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         double height = sc.nextDouble();

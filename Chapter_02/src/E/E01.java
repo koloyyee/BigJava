@@ -1,6 +1,6 @@
-package R;
+package E;
 
-public class R01 {
+public class E01 {
    public static void main(String[] args) {
       String m = "Mississippi";
       String replaceI = m.replace("i", "ii"); // return new String

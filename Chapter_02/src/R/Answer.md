@@ -22,3 +22,25 @@
 2.9 - in Java "=" is assign, math is equals
 
 2.10 - go check class R.
+
+2.11 - String message = "hello"; message.toUpperCase();
+
+2.12 - String message = "hello"; message.replace("h", "j");
+
+2.13 - String message = "Hello, World"; message.replace(",", "");
+
+2.14 - object variables stores references, objects are entities in the program.
+
+2.15 - class Rectangle{} Rectangle rect = new Rectangle();
+
+2.16 -  a: new Rectangle(50 ,50, 100, 100); 
+        b: new String("Hello, Dave");
+
+2.17 -  a: Rectangle rect = new Rectangle(50, 50, 100, 100);
+        b: String message = "Hello, Dave";
+2.18 - Rectangle square = new Rectangle(10, 20, 50, 50);
+        square.setX(20);
+        square.setY(20);
+
+2.19 - Rectangle square1 = square; Rectangle square2 = square1; 
+

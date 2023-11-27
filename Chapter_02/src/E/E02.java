@@ -1,6 +1,6 @@
-package R;
+package E;
 
-public class R02 {
+public class E02 {
     public static void main(String[] args) {
         String withSpaces = "                   hello                               world          ";
         System.out.println(withSpaces.trim());
